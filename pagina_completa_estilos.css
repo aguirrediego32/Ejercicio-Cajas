@@ -1,0 +1,109 @@
+/* === IMPORTANTE ===================================================
+   No modificar estos estilos, ya que son imprescindibles para
+   que la página se vea correctamente.
+   ================================================================== */
+
+/*-- Básico ----------------------------------------------------------*/
+ul, ul li { margin: 0; padding: 0; list-style: none; }
+h1, h2, h3, p, form { margin: 0; padding: 0; }
+.clear { clear: both; }
+img { border: none; }
+
+/*-- Layout ----------------------------------------------------------*/
+#contenedor {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+#cabecera, #menu, #lateral, #contenido, #contenido #principal, #contenido, #pie {
+  border: none;
+}
+
+#cabecera { clear: both; }
+#menu { clear: both; }
+#lateral { float: left; width: 20%; }
+#contenido { float: right; width: 78%; }
+#contenido #principal { float: left; width: 78%; }
+#contenido #secundario { float: right; width: 20%; }
+#pie { clear: both; }
+
+/*-- Cabecera --------------------------------------------------------*/
+#cabecera #logo { float: left; }
+#cabecera #buscador { float: right; }
+
+/*-- Menu ------------------------------------------------------------*/
+#menu ul#menu_principal li { display: inline; float: left; }
+
+/*-- Sección Principal -----------------------------------------------*/
+#contenido #principal .articulo img { width: 100px; float: left; }
+
+/*-- Pie de página ---------------------------------------------------*/
+#pie .enlaces   { float: left; }
+#pie .copyright { float: right; }
+
+h1 {
+  color: orange;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#menu {
+  background-color: #2142a5;
+  height: 3%;
+}
+
+#noticias{
+  border: 2px solid grey;
+  background-color: whitesmoke;
+  margin: 5% 0% 5% 0%;
+  padding: 2%;
+}
+
+#publicidad {
+  background-color: #fff7ce;
+  border: 2px dotted;
+  margin: 0% 0% 5% 0%;
+  padding: 2%;
+}
+
+#secundario {
+  border: 2px solid #db9157;
+  margin: 1% 0% 0% 0%;
+}
+#secundario > h2 {
+  margin: 3%;
+  background-color: #db9157;
+}
+#secundario > p {
+  margin: 3%;
+}
+#pie {
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  padding: 1% 0% 1% 0%;
+  background-color: whitesmoke;
+}
+.articulo {
+  margin-top: 4%;
+}
+
+img {
+  margin-right: 2%;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+h3 {
+  font-size: x-large;
+}
+
+
+
+
+
+/* === IMPORTANTE ===================================================
+   A partir de aquí, se pueden añadir todos los estilos propios que 
+   sean necesarios.
+   ================================================================== */
